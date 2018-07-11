@@ -1,0 +1,25 @@
+{
+  "name": "advance-css-sass-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/main.scss css/style.css -w",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjariwala/advance-css-sass-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayjariwala/advance-css-sass-course/issues"
+  },
+  "homepage": "https://github.com/jayjariwala/advance-css-sass-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.9.2"
+  }
+}
